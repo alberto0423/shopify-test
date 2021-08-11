@@ -1,5 +1,5 @@
 <?php
-require "configs/config.php";
+require "./configs/config.php";
 
 // Set variables for our request
 $shop = $_GET['shop'];
