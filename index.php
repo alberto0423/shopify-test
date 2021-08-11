@@ -1,3 +1,5 @@
 <?php
-phpinfo(INFO_MODULES);
+require "configs/config.php";
+
 ?>
+
