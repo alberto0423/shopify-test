@@ -4,7 +4,7 @@ if (isset($_GET['shop'])) {
     $shop = explode(".", $_GET['shop']);
     if (!empty($shop[0])) {
         header("Location: install.php?shop=" . $shop[0]);
-        die();
+    //    die();
     } else {
         echo "Verifica tu código";
     }
